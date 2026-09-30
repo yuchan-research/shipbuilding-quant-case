@@ -1,0 +1,93 @@
+{
+  "task": "ext2 작업 3 — 같은 가설, 다른 신호, 과거 기간(2004~2014)",
+  "hypothesis": "미국 조선 고객(LNG·해운 선주)의 밤사이 정보가 다음 날 한국 조선 장중 수익에 반영된다",
+  "period": {
+    "start": "2004-01-02",
+    "end": "2014-12-31",
+    "download_start": "2004-01-01",
+    "download_end_exclusive": "2015-01-01",
+    "note": "기존 표본(2015-01~2026-09)과 겹치지 않음"
+  },
+  "us_signal": {
+    "candidates": {
+      "GLNG": "Golar LNG",
+      "TK": "Teekay"
+    },
+    "inclusion_rule": "yfinance 데이터가 2004-06-30 이전부터 있는 종목만 포함. 둘 다 없으면 작업 중단",
+    "definition": "포함 종목 로그수익률의 평균(us_ship) − S&P500(^GSPC), 한국 시가 전 공개분 (Part F align_us_to_kr 그대로)",
+    "yfinance_auto_adjust": true,
+    "excluded": {
+      "LNG": "Cheniere는 2016년 이전엔 LNG 수입 터미널 회사라 과거 신호로 쓰지 않음"
+    }
+  },
+  "us_control": {
+    "^GSPC": "S&P 500"
+  },
+  "oil_control": {
+    "main": {
+      "ticker": "CL=F",
+      "name": "WTI",
+      "reason": "BZ=F는 2007-07 이전 데이터 없음"
+    },
+    "aux": {
+      "ticker": "BZ=F",
+      "name": "Brent",
+      "from": "2007-07-01",
+      "note": "2007-07 이후 구간에서 원래 식(브렌트)과 똑같이 한 번 더 (보조)"
+    }
+  },
+  "kr_basket": {
+    "009540": "현대중공업 (당시 조선 사업 직접 영위, 2017 인적분할 전)",
+    "010620": "현대미포조선",
+    "010140": "삼성중공업",
+    "042660": "대우조선해양"
+  },
+  "kr_source": "pykrx 네이버 수정주가 (Part F load_ohlc 그대로), 동일가중 바스켓 − KOSPI",
+  "kospi_source": "FinanceDataReader KS11 (Open, Close)",
+  "kr_returns_filter": "Part F kr_returns 그대로 (거래량 0·시가 ≤ 0 제외, |수익률| > 30.5% NaN)",
+  "regressions": {
+    "targets": [
+      "ship_gap_ex",
+      "ship_intra_ex",
+      "ship_cc_ex"
+    ],
+    "regressors": [
+      "us_ship",
+      "spx",
+      "oil (main: CL=F / aux: BZ=F)"
+    ],
+    "estimator": "OLS, HAC(Newey-West) maxlags = 5 (Part F hac_ols 그대로)"
+  },
+  "primary_test": {
+    "single": true,
+    "rule": "F2: ship_intra_ex ~ us_ship + spx + oil(CL=F) 에서 us_ship 계수 > 0 이고 HAC t > 1.96 이면 지지",
+    "auxiliary": [
+      "F1 시가 갭(ship_gap_ex)",
+      "종가(ship_cc_ex)",
+      "분위표",
+      "F3 전략 성과",
+      "BZ=F 보조 회귀(2007-07~)"
+    ]
+  },
+  "quintiles": "signal 전체 표본 5분위(pd.qcut), 분위별 ship_gap_ex·ship_intra_ex 평균 (Part F와 같음, 기술통계)",
+  "strategy": {
+    "rank": "signal의 확장 백분위, min_periods = 250 (2004~2014 표본 안에서만)",
+    "entry": "백분위 ≥ 0.8 (상위 20%)인 날 시가 매수 → 같은 날 종가 매도",
+    "asset": "조선 바스켓 동일가중 장중 수익률"
+  },
+  "costs": {
+    "commission_each_side": 0.00015,
+    "sell_tax": 0.003,
+    "sell_tax_note": "당시 코스피 매도세 0.30% = 증권거래세 0.15% + 농특세 0.15%",
+    "round_trip": 0.0033
+  },
+  "compare_with": [
+    "results_cross/F1_regression.csv",
+    "results_cross/F2_quintiles.csv",
+    "results_cross/F3_strategy.csv"
+  ],
+  "allowed_code_changes": "티커·기간·유가 변수만. 회귀식·HAC lag 5·전략 규칙·함수 로직은 Part F와 동일",
+  "korean_returns_viewed_before_saving": false,
+  "saved_at": "2026-09-30T22:03:06+09:00",
+  "sha256": "54c172598dc2876dd3fb25aca6c8722da87e596cfa0d311cd126a85b611151b9"
+}

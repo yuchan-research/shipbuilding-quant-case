@@ -1,0 +1,27 @@
+{
+  "amends": "config_ext2_hist.json",
+  "original_saved_at": "2026-09-30T22:03:06+09:00",
+  "original_sha256": "54c172598dc2876dd3fb25aca6c8722da87e596cfa0d311cd126a85b611151b9",
+  "change": {
+    "field": "kr_source",
+    "from": "pykrx 네이버 수정주가 (Part F load_ohlc 그대로), 동일가중 바스켓 − KOSPI",
+    "to": "네이버 siseJson (api.finance.naver.com/siseJson.naver, requestType=1, timeframe=day, 기간 지정). Part F load_ohlc의 가격 조회 부분만 교체하고, 반환 형식(Open, Close, Volume)과 이후 로직(load_panel, kr_returns, basket 등)은 동일"
+  },
+  "reason": [
+    "같은 네이버 수정주가 원천",
+    "pykrx와 겹치는 구간(118~311일) OHLC 100% 일치",
+    "pykrx 네이버 경로는 최근 약 3,000거래일만 반환해 2004~2014 대부분이 비어 있음",
+    "한국 수익률 확인 전 결정"
+  ],
+  "approved_by": "사용자 승인 (2026-09-30 대화)",
+  "pre_committed_checks_before_stage_C": [
+    "1. 2004~2014 권리 이벤트(증자·분할 등) 전후 siseJson 수정주가 vs 무조정 Yahoo(보조: 네이버 수정 전 시세) 수익률 비교",
+    "2. F 확장 Step 1과 같은 시가 점검: 저가 ≤ 시가 ≤ 고가 위반 수, 시가·종가 수정 비율 일치 여부",
+    "3. 시가=고가=저가=종가(제한폭 고정 추정)인 날 종목·연도별 일수. 거래량 0이 아니면 그대로 둠"
+  ],
+  "checks_do_not_change_config": true,
+  "pre_committed_auxiliary": "점검 1의 가격 수정 이벤트·DART 자본변동 이벤트 ±1일과 점검 2의 시가·종가 수정 비율 불일치 종목·일을 뺀 F2 재추정 (보조, 판정에 쓰지 않음)",
+  "korean_returns_viewed_before_saving": false,
+  "saved_at": "2026-09-30T23:24:30+09:00",
+  "sha256": "1b011d264e251b6596bf4c05d4f74c65421bb9ad91339866087a5c704e1a7ed2"
+}
