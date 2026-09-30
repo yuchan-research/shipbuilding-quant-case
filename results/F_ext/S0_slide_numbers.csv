@@ -1,0 +1,14 @@
+﻿항목,구분,값,출처
+(a) Part I 플라시보 (삼성전자 → 기자재),주간 · 6종목(본 분석),"Σb = -0.075, p = 0.669 (결합 F p = 0.949, N = 533)",results/leadlag_pairs/I2_predictive_regressions.csv
+(a) Part I 플라시보 (삼성전자 → 기자재),일간 · 6종목(본 분석),"Σb = +0.017, p = 0.795 (결합 F p = 0.908, N = 2863)",results/leadlag_pairs/I2_predictive_regressions.csv
+(a) Part I 플라시보 (삼성전자 → 기자재),주간 · 8종목(강건성),"Σb = -0.008, p = 0.968 (결합 F p = 0.967, N = 533)",results/leadlag_pairs/I2_predictive_regressions.csv
+(a) Part I 플라시보 (삼성전자 → 기자재),일간 · 8종목(강건성),"Σb = +0.044, p = 0.501 (결합 F p = 0.965, N = 2863)",results/leadlag_pairs/I2_predictive_regressions.csv
+(b) Part I 일간 보조 (시차 1~4일; 5일은 계산 안 함),I-2 조선→기자재 · 6종목(본 분석),"Σb = +0.041, t = 0.92, p = 0.359, 결합 F p = 0.462",I2_predictive_regressions.csv
+(b) Part I 일간 보조 (시차 1~4일; 5일은 계산 안 함),I-4 역방향 기자재→조선 · 6종목(본 분석),"Σb = +0.194, t = 2.94, p = 0.003, 결합 F p = 0.046",I2_predictive_regressions.csv
+(b) Part I 일간 보조 (시차 1~4일; 5일은 계산 안 함),I-2 조선→기자재 · 8종목(강건성),"Σb = +0.033, t = 0.70, p = 0.483, 결합 F p = 0.858",I2_predictive_regressions.csv
+(b) Part I 일간 보조 (시차 1~4일; 5일은 계산 안 함),I-4 역방향 기자재→조선 · 8종목(강건성),"Σb = +0.160, t = 2.80, p = 0.005, 결합 F p = 0.062",I2_predictive_regressions.csv
+(b) Part I 일간 보조 (시차 1~4일; 5일은 계산 안 함),I-1 교차상관 비대칭 · 6종목(본 분석),"Σ(조선→기자재) − Σ(기자재→조선) = -0.042, p = 0.306",I1_ccf_asymmetry.csv
+(b) Part I 일간 보조 (시차 1~4일; 5일은 계산 안 함),I-1 교차상관 비대칭 · 8종목(강건성),"Σ(조선→기자재) − Σ(기자재→조선) = -0.008, p = 0.859",I1_ccf_asymmetry.csv
+(c) Part F3 신호일(상위 20%),신호일 평균 장중 수익 / 신호일 수,0.236% / 598일 (당시 왕복비용 가정 0.180%),results_cross/F3_strategy.csv + 실행본 노트북 출력
+(d) Part J 비용 가정,매수 / 매도 / 대차,"수수료 매수·매도 각 0.015%, 거래세 0.20%(롱 청산 매도와 공매도 매도에 부과), 숏 대차수수료 연 3%(252일 일할)","results/leadlag_pairs/PartJ_summary.md, J5_compare_partD.csv"
+(d) Part J 세율 근거,2026년 코스피 거래세 0.05% + 농특세 0.15% = 0.20% (코스닥 0.20%),"결과 파일에는 세율 값만 있고 출처 URL은 적혀 있지 않음. 당시 보고에 쓴 출처: 네이트 뉴스 2025-12-01 '내년부터 증권거래세 인상…코스피 0.05%·코스닥 0.20%', 머니투데이 2025-12-01","https://news.nate.com/view/20251201n26338 , https://www.mt.co.kr/economy/2025/12/01/2025120108471236062"

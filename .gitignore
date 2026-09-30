@@ -1,0 +1,19 @@
+# OpenDartReader 기업코드 캐시 (자동 생성, 8MB)
+docs_cache/
+*.pkl
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 비밀 값 (DART_API_KEY 등은 환경변수로만 사용)
+.env
+.env.*
+
+# 편집기·OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,100 @@
+﻿event,t0,exp_ship,basket,window,CAR(%),t
+Russia invades Ukraine,2022-02-24,+,ship,"[0,+1]",-1.1234704380863836,-0.39780886514569025
+Russia invades Ukraine,2022-02-24,+,ship,"[0,+5]",1.0261471139955725,0.2097789022684256
+Russia invades Ukraine,2022-02-24,+,ship,"[0,+20]",-2.157594381729872,-0.23576968369496878
+Russia invades Ukraine,2022-02-24,+,shipping,"[0,+1]",-1.3910019651200174,-0.351310032986518
+Russia invades Ukraine,2022-02-24,+,shipping,"[0,+5]",11.147380673265594,1.625455237299397
+Russia invades Ukraine,2022-02-24,+,shipping,"[0,+20]",-3.0016749626508945,-0.23395472598665007
+Russia invades Ukraine,2022-02-24,+,defense,"[0,+1]",4.958149724396533,2.10676105748631
+Russia invades Ukraine,2022-02-24,+,defense,"[0,+5]",14.250840743178134,3.4960328447938274
+Russia invades Ukraine,2022-02-24,+,defense,"[0,+20]",12.695723467378913,1.6647861319027553
+Nord Stream pipeline sabotage,2022-09-27,+,ship,"[0,+1]",-6.450685295618294,-2.0960628492607802
+Nord Stream pipeline sabotage,2022-09-27,+,ship,"[0,+5]",-6.793451160497319,-1.274466064510572
+Nord Stream pipeline sabotage,2022-09-27,+,ship,"[0,+20]",-19.601237993197305,-1.9655644920525752
+Nord Stream pipeline sabotage,2022-09-27,+,shipping,"[0,+1]",5.824534527109006,1.84329145163388
+Nord Stream pipeline sabotage,2022-09-27,+,shipping,"[0,+5]",-2.05509647358541,-0.37549518435587276
+Nord Stream pipeline sabotage,2022-09-27,+,shipping,"[0,+20]",-6.357547526531474,-0.6209087083109289
+Nord Stream pipeline sabotage,2022-09-27,+,defense,"[0,+1]",-1.7113526162004788,-0.5304496522460281
+Nord Stream pipeline sabotage,2022-09-27,+,defense,"[0,+5]",-3.300032780508476,-0.590557640218378
+Nord Stream pipeline sabotage,2022-09-27,+,defense,"[0,+20]",-11.805760243489669,-1.12928608161995
+"Hamas attack on Israel (10/7, 1st KR day)",2023-10-10,?,ship,"[0,+1]",2.233426761286886,0.8318266391976169
+"Hamas attack on Israel (10/7, 1st KR day)",2023-10-10,?,ship,"[0,+5]",-1.0977690311504604,-0.23605405017711129
+"Hamas attack on Israel (10/7, 1st KR day)",2023-10-10,?,ship,"[0,+20]",-1.7214572384223235,-0.19786213844016146
+"Hamas attack on Israel (10/7, 1st KR day)",2023-10-10,?,shipping,"[0,+1]",-5.335428644934639,-1.820782083220077
+"Hamas attack on Israel (10/7, 1st KR day)",2023-10-10,?,shipping,"[0,+5]",-9.226406314499087,-1.817860713327604
+"Hamas attack on Israel (10/7, 1st KR day)",2023-10-10,?,shipping,"[0,+20]",-0.02000044446391243,-0.0021063651103423965
+"Hamas attack on Israel (10/7, 1st KR day)",2023-10-10,?,defense,"[0,+1]",3.5085507955251685,1.1264620439726567
+"Hamas attack on Israel (10/7, 1st KR day)",2023-10-10,?,defense,"[0,+5]",-1.9322592645560428,-0.35817359440402646
+"Hamas attack on Israel (10/7, 1st KR day)",2023-10-10,?,defense,"[0,+20]",6.375485843508128,0.6316949871564345
+Houthis seize Galaxy Leader (Red Sea),2023-11-20,?,ship,"[0,+1]",4.327928209613369,1.5940534431417674
+Houthis seize Galaxy Leader (Red Sea),2023-11-20,?,ship,"[0,+5]",3.596601834632728,0.7648117713423784
+Houthis seize Galaxy Leader (Red Sea),2023-11-20,?,ship,"[0,+20]",1.1486333199181464,0.13055983430493212
+Houthis seize Galaxy Leader (Red Sea),2023-11-20,?,shipping,"[0,+1]",2.767185538920436,0.9518585171316619
+Houthis seize Galaxy Leader (Red Sea),2023-11-20,?,shipping,"[0,+5]",0.7897413445811272,0.15684055423233784
+Houthis seize Galaxy Leader (Red Sea),2023-11-20,?,shipping,"[0,+20]",10.149795958347338,1.0774491503656805
+Houthis seize Galaxy Leader (Red Sea),2023-11-20,?,defense,"[0,+1]",-1.8314918843200003,-0.6221016455405874
+Houthis seize Galaxy Leader (Red Sea),2023-11-20,?,defense,"[0,+5]",-2.394987304984461,-0.4696766177153198
+Houthis seize Galaxy Leader (Red Sea),2023-11-20,?,defense,"[0,+20]",12.85389590704838,1.3473998063849213
+Major carriers pause Red Sea transits,2023-12-18,?,ship,"[0,+1]",-5.186449883086995,-1.8647964269760007
+Major carriers pause Red Sea transits,2023-12-18,?,ship,"[0,+5]",-7.636620483421364,-1.5852648254761497
+Major carriers pause Red Sea transits,2023-12-18,?,ship,"[0,+20]",-10.58233964427354,-1.1742167993596526
+Major carriers pause Red Sea transits,2023-12-18,?,shipping,"[0,+1]",6.6185567623333945,2.254197990955122
+Major carriers pause Red Sea transits,2023-12-18,?,shipping,"[0,+5]",4.549571082091865,0.8946199691513494
+Major carriers pause Red Sea transits,2023-12-18,?,shipping,"[0,+20]",13.189454112829429,1.3863118396324219
+Major carriers pause Red Sea transits,2023-12-18,?,defense,"[0,+1]",2.0807087466438703,0.679277303069653
+Major carriers pause Red Sea transits,2023-12-18,?,defense,"[0,+5]",-2.951946089253437,-0.5563954953445018
+Major carriers pause Red Sea transits,2023-12-18,?,defense,"[0,+20]",2.6555151567576036,0.2675407534614269
+US/UK strikes on Houthis,2024-01-12,?,ship,"[0,+1]",2.2252422415653346,0.7753360871167214
+US/UK strikes on Houthis,2024-01-12,?,ship,"[0,+5]",2.508919191980996,0.5047063268395923
+US/UK strikes on Houthis,2024-01-12,?,ship,"[0,+20]",-11.908993049755779,-1.2805398405491943
+US/UK strikes on Houthis,2024-01-12,?,shipping,"[0,+1]",4.224012292799495,1.441175641933639
+US/UK strikes on Houthis,2024-01-12,?,shipping,"[0,+5]",3.4056911881494414,0.6708669208012698
+US/UK strikes on Houthis,2024-01-12,?,shipping,"[0,+20]",5.961627841092436,0.627714197758029
+US/UK strikes on Houthis,2024-01-12,?,defense,"[0,+1]",-0.19336731054617404,-0.06432333499287801
+US/UK strikes on Houthis,2024-01-12,?,defense,"[0,+5]",0.7992202426822226,0.1534939789636892
+US/UK strikes on Houthis,2024-01-12,?,defense,"[0,+20]",-4.597466574732338,-0.4719646022127102
+US president-elect cites Korea shipbuilding cooperation,2024-11-07,+,ship,"[0,+1]",13.619675852987331,4.419863754810957
+US president-elect cites Korea shipbuilding cooperation,2024-11-07,+,ship,"[0,+5]",24.427216343124496,4.57673178825424
+US president-elect cites Korea shipbuilding cooperation,2024-11-07,+,ship,"[0,+20]",16.56306119043273,1.6587772384502846
+US president-elect cites Korea shipbuilding cooperation,2024-11-07,+,shipping,"[0,+1]",1.1002712891342854,0.34396647581530854
+US president-elect cites Korea shipbuilding cooperation,2024-11-07,+,shipping,"[0,+5]",6.109537734195911,1.1027169758531679
+US president-elect cites Korea shipbuilding cooperation,2024-11-07,+,shipping,"[0,+20]",6.0218845744498495,0.580970543957885
+US president-elect cites Korea shipbuilding cooperation,2024-11-07,+,defense,"[0,+1]",0.8506460336084067,0.2224628991558696
+US president-elect cites Korea shipbuilding cooperation,2024-11-07,+,defense,"[0,+5]",1.0278196762520535,0.15519045678704435
+US president-elect cites Korea shipbuilding cooperation,2024-11-07,+,defense,"[0,+20]",-31.314879415834984,-2.527346602561455
+USTR proposes fees on China-built ships,2025-02-24,+,ship,"[0,+1]",5.481055490501604,1.5427350400458348
+USTR proposes fees on China-built ships,2025-02-24,+,ship,"[0,+5]",9.352011527260881,1.5197478964388316
+USTR proposes fees on China-built ships,2025-02-24,+,ship,"[0,+20]",-7.994086780429098,-0.6943866357358646
+USTR proposes fees on China-built ships,2025-02-24,+,shipping,"[0,+1]",7.47781786740375,2.796379384607985
+USTR proposes fees on China-built ships,2025-02-24,+,shipping,"[0,+5]",9.290213144062731,2.0057936837153263
+USTR proposes fees on China-built ships,2025-02-24,+,shipping,"[0,+20]",4.288795733350512,0.4949506754941593
+USTR proposes fees on China-built ships,2025-02-24,+,defense,"[0,+1]",-0.5077664596504782,-0.1193467383549596
+USTR proposes fees on China-built ships,2025-02-24,+,defense,"[0,+5]",0.13352039676403082,0.0181189710524451
+USTR proposes fees on China-built ships,2025-02-24,+,defense,"[0,+20]",-7.545495257229759,-0.547317891531008
+US maritime executive order,2025-04-10,+,ship,"[0,+1]",6.142961189341788,1.605794272300969
+US maritime executive order,2025-04-10,+,ship,"[0,+5]",6.590970194614096,0.9947200075984781
+US maritime executive order,2025-04-10,+,ship,"[0,+20]",3.7494507336656295,0.3024719700596583
+US maritime executive order,2025-04-10,+,shipping,"[0,+1]",2.831612545121699,1.045402433955319
+US maritime executive order,2025-04-10,+,shipping,"[0,+5]",0.9583133509958097,0.20426623798430332
+US maritime executive order,2025-04-10,+,shipping,"[0,+20]",2.2055247178852015,0.25128522800819203
+US maritime executive order,2025-04-10,+,defense,"[0,+1]",5.644075687856611,1.3024602383732973
+US maritime executive order,2025-04-10,+,defense,"[0,+5]",10.799730830117618,1.4388779222019392
+US maritime executive order,2025-04-10,+,defense,"[0,+20]",6.122877967565243,0.43604629343825546
+USTR final action on China shipbuilding,2025-04-18,+,ship,"[0,+1]",-5.0305009025737295,-1.3040795386180386
+USTR final action on China shipbuilding,2025-04-18,+,ship,"[0,+5]",5.476583971278702,0.8196755356144764
+USTR final action on China shipbuilding,2025-04-18,+,ship,"[0,+20]",-4.030587235774711,-0.32245307673808793
+USTR final action on China shipbuilding,2025-04-18,+,shipping,"[0,+1]",-0.9719485157583199,-0.3583952086853693
+USTR final action on China shipbuilding,2025-04-18,+,shipping,"[0,+5]",-3.950757078664381,-0.8410825712168323
+USTR final action on China shipbuilding,2025-04-18,+,shipping,"[0,+20]",4.5925706561454565,0.5226129068512679
+USTR final action on China shipbuilding,2025-04-18,+,defense,"[0,+1]",-1.6577355468412054,-0.37244994214725374
+USTR final action on China shipbuilding,2025-04-18,+,defense,"[0,+5]",-3.2047870430120513,-0.41571070646519165
+USTR final action on China shipbuilding,2025-04-18,+,defense,"[0,+20]",0.6518355513043823,0.045195589435947967
+China sanctions Hanwha Ocean US subsidiaries,2025-10-14,-,ship,"[0,+1]",-4.8542633805361834,-1.261695366042044
+China sanctions Hanwha Ocean US subsidiaries,2025-10-14,-,ship,"[0,+5]",1.425418593594059,0.21390107331952293
+China sanctions Hanwha Ocean US subsidiaries,2025-10-14,-,ship,"[0,+20]",-8.24337700677124,-0.6612134582977303
+China sanctions Hanwha Ocean US subsidiaries,2025-10-14,-,shipping,"[0,+1]",1.4169126036390751,0.5931138622994772
+China sanctions Hanwha Ocean US subsidiaries,2025-10-14,-,shipping,"[0,+5]",-0.71305882827737,-0.17232954641480758
+China sanctions Hanwha Ocean US subsidiaries,2025-10-14,-,shipping,"[0,+20]",-6.6122856678643425,-0.854185056680652
+China sanctions Hanwha Ocean US subsidiaries,2025-10-14,-,defense,"[0,+1]",-4.045907060355974,-0.8684976457579384
+China sanctions Hanwha Ocean US subsidiaries,2025-10-14,-,defense,"[0,+5]",-10.62198677458395,-1.3164303074888095
+China sanctions Hanwha Ocean US subsidiaries,2025-10-14,-,defense,"[0,+20]",-29.047985082410992,-1.9243058787420944
